@@ -1,6 +1,6 @@
 FROM jacobalberty/firebird:2.5-sc
 
-ENV CAMINHO_BD=35.247.196.95:/home/youtube/delivery/database/PRINCIPAL.FDB
+ENV CAMINHO_BD=
 ENV DB_USER=SYSDBA
 ENV DB_PASS=masterkey
 ENV HOSTNAME=0.0.0.0
