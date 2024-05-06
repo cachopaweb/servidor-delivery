@@ -22,7 +22,7 @@ implementation
 uses
   System.Json,
   UnitTabela.Helper.Json,
-  UnitDatabase;
+  UnitDatabase, UnitConstants;
 
 class procedure TPedidosController.GetAll(Req: THorseRequest; Res: THorseResponse);
 var

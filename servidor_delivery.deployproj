@@ -28,4 +28,5 @@
             <Required>True</Required>
         </DeployFile>
     </ItemGroup>
+    <ItemGroup Condition="'$(Platform)'=='Win64'"/>
 </Project>

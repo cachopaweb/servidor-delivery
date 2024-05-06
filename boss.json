@@ -5,5 +5,10 @@
 	"homepage": "",
 	"mainsrc": "./src",
 	"projects": [],
-	"dependencies": {}
+	"dependencies": {
+		"github.com/hashload/horse": "^3.1.6",
+		"github.com/hashload/jhonson": "^1.1.8",
+		"https://github.com/cachopaweb/portalorm": "^v1.0.18",
+		"https://github.com/hashload/horse-cors": "^1.0.6"
+	}
 }

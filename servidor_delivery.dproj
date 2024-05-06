@@ -6,7 +6,7 @@
         <MainSource>servidor_delivery.dpr</MainSource>
         <Base>True</Base>
         <Config Condition="'$(Config)'==''">Debug</Config>
-        <Platform Condition="'$(Platform)'==''">Win32</Platform>
+        <Platform Condition="'$(Platform)'==''">Linux64</Platform>
         <TargetedPlatforms>129</TargetedPlatforms>
         <AppType>Console</AppType>
     </PropertyGroup>
@@ -56,6 +56,7 @@
         <DCC_UsePackage>RESTComponents;emsclientfiredac;DataSnapFireDAC;FireDACIBDriver;emsclient;FireDACCommon;RESTBackendComponents;soapserver;CloudService;FireDACCommonDriver;inet;FireDAC;FireDACSqliteDriver;soaprtl;soapmidas;$(DCC_UsePackage)</DCC_UsePackage>
         <DCC_Namespace>System;Xml;Data;Datasnap;Web;Soap;$(DCC_Namespace)</DCC_Namespace>
         <SanitizedProjectName>servidor_delivery</SanitizedProjectName>
+        <DCC_UnitSearchPath>modules\.dcp;modules\.dcu;modules;modules\clientrest\src;modules\factory-connections\src\FireDAC;modules\factory-connections\src\IBExpress;modules\factory-connections\src;modules\horse\src;modules\horse-cors\src;modules\jhonson\src;modules\portalorm\src\Model;modules\portalorm\src\Modulos\FormRTTI\Model;modules\portalorm\src\Modulos\FormRTTI;modules\portalorm\src\Modulos\Helpers;modules\portalorm\src\Modulos\InsereTabela;modules\portalorm\src\Modulos\PatternCommand;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Linux64)'!=''">
         <DCC_UsePackage>DataSnapServerMidas;FireDACADSDriver;DatasnapConnectorsFreePascal;FireDACMSSQLDriver;inetdb;ACBr_OFX;emsedge;dbexpress;IndyCore;dsnap;DataSnapCommon;ACBr_NFSeX;ACBr_GTIN;DataSnapConnectors;bindengine;FireDACOracleDriver;FireDACMySQLDriver;FireDACCommonODBC;DataSnapClient;IndySystem;FireDACDb2Driver;ACBr_PagFor;FireDACInfxDriver;emshosting;FireDACPgDriver;FireDACASADriver;FireDACTDataDriver;DbxCommonDriver;DataSnapServer;xmlrtl;DataSnapNativeClient;rtl;DbxClientDriver;CustomIPTransport;bindcomp;ACBr_NFSeXDanfseRL;dbxcds;FireDACODBCDriver;DataSnapIndy10ServerTransport;ACBr_Boleto;dsnapxml;dbrtl;FireDACMongoDBDriver;IndyProtocols;$(DCC_UsePackage)</DCC_UsePackage>
